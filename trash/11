@@ -1,0 +1,11 @@
+FM 
+========================
+
+```
+*приведение значения из Excel вида 1234 к виду 000001234 - т.е. добавление необходимых ведущих нулей.
+CALL FUNCTION 'CONVERSION_EXIT_ALPHA_INPUT'
+        EXPORTING
+          input  = STRUC1-KUNNR
+       IMPORTING
+          output = fKUNNR.
+```
